@@ -1,0 +1,22 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Tênis Air Jordan Chicago",
+      "price": "1299.99",
+      "color": "Branco com Vermelho"
+    },
+    {
+      "id": 2,
+      "name": "Tênis NIke SB street",
+      "price": "299.99",
+      "color": "Azul"
+    },
+    {
+      "id": 3,
+      "name": "Adidas SpringBlade ",
+      "price": "499.99",
+      "color": "Preto com Branco"
+    }
+  ]
+}

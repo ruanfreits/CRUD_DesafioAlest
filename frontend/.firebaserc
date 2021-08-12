@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "gavetabanco": {
+      "hosting": {
+        "frontend": [
+          "gavetabanco"
+        ]
+      }
+    }
+  }
+}
