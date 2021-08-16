@@ -1,0 +1,56 @@
+table{
+    width:80%;
+}
+
+
+.edit{
+    margin-right:15px;
+}
+
+.edit{
+color:#3fd31a
+}
+
+.delete{
+color: #e83700
+}
+
+th{
+    align-items:left;
+}
+
+.container-fluid {
+    padding: 50px 100px;
+}
+ 
+  .caixa{
+    margin-left:50%;
+    align-items: center;
+    border: solid;
+    border-color: black;
+  }
+  
+  
+  input:focus {
+    -webkit-box-shadow: none;
+    box-shadow: none !important;
+  }
+  
+  button:focus {
+    outline: none;
+    box-shadow: none !important;
+  }
+  
+  .error-border {
+    border: 1px solid crimson;
+  }
+  
+  .edit{
+    margin-right: 20px;
+  }
+
+  .delete{
+    color: #e83700
+  }
+
+ 

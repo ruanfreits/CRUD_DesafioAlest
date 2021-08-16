@@ -1,0 +1,10 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Tênis Yezzy Adidas Sportback",
+      "price": "1200.99",
+      "color": "Branco"
+    }
+  ]
+}

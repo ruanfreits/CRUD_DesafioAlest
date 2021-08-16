@@ -1,0 +1,38 @@
+<mat-card>
+    <mat-card-title>
+        Deletar
+    </mat-card-title>
+       
+    <form [formGroup]="formularioProduto" >
+        <mat-form-field>
+            <input matInput placeholder="Nome" 
+            [value]="product.name" name="name"
+            formControlName="Produto" >
+        </mat-form-field>
+
+        <mat-form-field>
+            <input matInput placeholder="Preço (R$)" 
+            [value]="product.price" name="preço"
+            formControlName="Preço" >
+        </mat-form-field>
+
+        <mat-form-field>
+            <input matInput placeholder="Cor" 
+            formControlName="Cor" [value]="product.color" name="cor">
+        </mat-form-field>
+    
+        
+    </form>
+
+
+    <button mat-raised-button (click)="deleteProduct()" click="eliminarProduto(Produto:id)" color="warn">
+        Excluir
+    </button>
+
+    <button mat-raised-button (click)="cancel()" >
+        Cancelar
+    </button>
+
+        </mat-card>
+    
+     
